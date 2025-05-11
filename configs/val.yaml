@@ -1,0 +1,17 @@
+data:
+  root_dir: './data/vox1_png' 
+  sample_size:  [512, 512]
+  sample_stride: 1
+  sample_n_frames: 16
+
+pretrained_base_model_path: './pretrained_model/stable-diffusion-v1-5'
+pretrained_vae_path: './pretrained_model/sd-vae-ft-mse'
+image_encoder_path: './pretrained_model/image_encoder'
+motion_adapter_path: './pretrained_model/animatediff'
+
+denoising_unet_path: "./pretrained_model/denoising_unet.pth"
+appearance_unet_path: "./pretrained_model/appearance_unet.pth"
+lia_model_path: "./pretrained_model/lia.pth"
+
+inference_config: "./configs/inference/inference_v2.yaml"
+weight_dtype: 'fp16'
