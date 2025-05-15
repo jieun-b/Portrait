@@ -92,7 +92,7 @@ accelerate launch train_stage_2_full.py --config ./configs/train/stage2_full.yam
 
 ## Evaluation
 
-Evaluation follows the method in [this repository](https://github.com/jieun-b/Portrait/tree/main).
+Evaluation follows the method in [this repository](https://github.com/jieun-b/portrait-eval-pipeline).
 
 ## Using DeepSpeed
 
